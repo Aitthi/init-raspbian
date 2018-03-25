@@ -2,8 +2,8 @@ sudo su
 aptitude update
 rm /var/lib/dpkg/lock
 dpkg --configure -a
-apt-get update
-apt-get dist-upgrade
+apt-get update -y
+apt-get dist-upgrade -y
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 apt-get install -y nodejs
 git clone https://github.com/vladikoms/WiringOP-Zero.git
