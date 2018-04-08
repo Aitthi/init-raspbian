@@ -1,6 +1,6 @@
 # init-raspbian
 Fix a bug update and Installed package on raspbian for Orange Pi Zero, raspbian os of www.armbian.com And install nodejs v8, WiringOP-Zero for Orange Pi Zero.
-download os from google drive https://drive.google.com/drive/folders/1IVB2aVmMCD0igPf7xi-MU7lX64OAPd4G?usp=sharing
+download os from google drive https://drive.google.com/file/d/18AxnT92iVrKN1y29ppLtcKz28guGjAmG/view
 
 ```sh
 wget -O - https://raw.githubusercontent.com/Aitthi/init-raspbian/master/init.sh | bash
